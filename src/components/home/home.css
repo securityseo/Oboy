@@ -1,0 +1,33 @@
+.slide-img img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.slider{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.glav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cards{
+    width: 100%;
+}
+.home-main{
+background-image: url('../../assets/background.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+width: 100vw;
+height: 100vh;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+.glav{
+    margin-top: 100px;
+}

@@ -1,0 +1,95 @@
+.comrades-card-menu p {
+  display: flex;
+  gap: 10px;
+  font-family: sans-serif;
+  align-items: center;
+}
+
+.comrades-card-menu h2 {
+  margin-top: 10px;
+}
+
+.comrades-card{
+  background-color: white;
+}
+
+.brend_name {
+  margin-top: 10px;
+}
+
+.comrades-container {
+  border-radius: 10px;
+  margin-bottom: 30px;
+  display: grid;grid-template-columns: repeat(3,2fr);
+  gap: 7%;
+}
+
+.card_con {
+  padding: 10px 20px;
+}
+
+.comrades-basket {
+  display: flex;
+  margin-top: 10px;
+  height: 40px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.CardData{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.contaner{
+width: 100%;
+max-width: 1500px;
+margin: 0 auto;
+padding: 0 25px;
+}
+
+.contaner p{
+  color: grey;
+  margin-top: 20px;
+}
+
+.about_produc h1{
+  font-size: 50px;
+}
+
+.about_produc{
+  width: 550px;
+}
+
+.rulons input{
+  width: 65px;
+  height: 45px;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.add_to_basket_btn{
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 10px;margin-top: 20px;cursor: pointer;
+}
+
+.price_product{
+  margin-top: 10px;
+}
+
+.rulons div{
+  margin-left: -5px;
+}
