@@ -7,8 +7,7 @@ import Swipper from "../swipper/Swipper";
 import data from "../db/data";
 
 const Home = () => {
-  const displayedProducts = data.slice(25, 27);
-  const displayedProductses = data.slice(25, 27);
+  const displayedProducts = data.slice(0, 5);
 
   return (
     <div className="wrapper">
@@ -19,17 +18,6 @@ const Home = () => {
             <Swipper />
             <div className="cards">
               {displayedProducts.map((item) => {
-                return (
-                  <Comrades
-                    key={item.id}  
-                    id={item.id}
-                    newPrice={item.newPrice}
-                    brand={item.company}
-                    image={item.img}
-                  />
-                );
-              })}
-              {displayedProductses.map((item) => {
                 return (
                   <Comrades
                     key={item.id}  

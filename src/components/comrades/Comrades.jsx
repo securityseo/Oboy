@@ -22,9 +22,6 @@ const Comrades = ({ newPrice, title,image, id }) => {
           <div className="comrades-card-button">
             <button className="comrades-basket">
               <Karzina />
-              <div>
-                <p>Savatga</p>
-              </div>
             </button>
           </div>
         </div>

@@ -4,8 +4,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import './swiper.css'
-import wal from "../../assets//Screen Shot 2023-11-25 at 13.50.42.png";
-import wall from "../../assets//banner.png";
+import wal from "../../assets/bann.png";
+import wall from "../../assets//banner4.png";
 const Swipper = () => {
   const settings = {
     dots: true,

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Instagram from "../../assets/icons/Instagram";
 import Telegram from "../../assets/icons/Telegram";
 import FaceBook from "../../assets/icons/FaceBook";
-import logo from "../../assets/Logo.png";
+import logo from "../../assets/logo-removebg-preview.png";
 const Footer = () => {
   return (
     <div className="wrapper">
