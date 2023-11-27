@@ -1,6 +1,5 @@
 import React from "react";
 import "./footer.css";
-// import "../navbar/navbar.css";
 import { Link } from "react-router-dom";
 import Instagram from "../../assets/icons/Instagram";
 import Telegram from "../../assets/icons/Telegram";
@@ -33,18 +32,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="links">
-            
-              <Link className="footer_links" to={"/"}>
-              Главная
-              </Link>
-
-              <Link className="footer_links" to={"/branches"}>
-              Филиалы
-              </Link>
-
-              <Link className="footer_links" to={"/categories"}>
-              Категории
-              </Link>
+              <p>oboylar-dunyosi@mail.com</p>
           </div>
             </div>
         </div>

@@ -7,7 +7,7 @@ import Swipper from "../swipper/Swipper";
 import data from "../db/data";
 
 const Home = () => {
-  const displayedProducts = data.slice(0, 4);
+  const displayedProducts = data.slice(0, 5);
 
   return (
     <div className="wrapper">

@@ -13,19 +13,19 @@
     flex-direction: column;
     justify-content: center;
 }
-.cards{
-    width: 100%;
-}
+
 .home-main{
 background-image: url('../../assets/background.jpeg');
 background-repeat: no-repeat;
 background-size: cover;
 width: 100vw;
-height: 100vh;
+height: auto;
 }
 .cards{
     width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 15px;
 }
 .glav{
