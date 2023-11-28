@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="footer-in-name">
             <div className="footer-in">
             <div className="footer-logo">
-              <img src={logo} alt="" width={240} height={240}/>
+              <img src={logo} alt="" width={250} height={80}/>
             </div>
             <div className="FOOTER-SOCIAL">
               <button>

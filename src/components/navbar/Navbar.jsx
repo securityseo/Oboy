@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="nav">
         <Link to="/">
           <div className="project_logo">
-            <img src={logo} alt="" width={250} height={80}/>
+            <img src={logo} alt="" width={250} height={20}/>
           </div>
         </Link>
         <div className="nav_links">
@@ -56,8 +56,9 @@ const Navbar = () => {
             </svg>
             </button>
           </Link>
+
+          
         </div>
-        {/* <BackBtn/> */}
       </div>
       </div>
     </div>

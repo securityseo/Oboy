@@ -2,11 +2,7 @@ import React from "react";
 import Karzina from "../../assets/icons/Karzina";
 import { Link } from "react-router-dom";
 import "./comrades.css";
-import data from '../db/data' 
 const Comrades = ({ newPrice, title,image, id }) => {
-  const product = data
-  console.log(product);
-  console.log(title);
   return (
     <div className="comrades-container">
       <div className="comrades-card">

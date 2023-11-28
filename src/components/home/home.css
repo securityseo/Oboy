@@ -31,3 +31,23 @@ height: auto;
 .glav{
     margin-top: 100px;
 }
+.cards::-webkit-scrollbar{
+    display: none;
+}
+
+
+/*responsive*/
+
+@media screen and (max-width:1530px) {
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:970px) {
+    .cards{
+        display: flex;
+        overflow: hidden;
+        overflow: scroll;
+    }
+}
