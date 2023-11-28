@@ -23,6 +23,7 @@ const Home = () => {
                     key={item.id}  
                     id={item.id}
                     newPrice={item.newPrice}
+                    title={item.title}
                     brand={item.company}
                     image={item.img}
                   />

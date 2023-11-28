@@ -15,8 +15,8 @@
 }
 
 .home-main{
-    background: #c9d7e8;
-background-repeat: no-repeat;
+background-image: url('../../assets/background.jpeg');
+    background-repeat: no-repeat;
 background-size: cover;
 width: 100vw;
 height: auto;
