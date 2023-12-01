@@ -1,39 +1,44 @@
 @import url(https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700);
 
-.header-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.header-logo img{
-    width: 200px;
-    height: 80px;
+.header-logo img {
+  width: 200px;
+  height: 80px;
 }
-.header-links{
-    display: flex;
-    gap: 50px;
-    color: #FFF;
-font-family:'Comfortaa',sans-serif;
-font-size: 16px;
-font-weight: 400;
+.header-links {
+  display: flex;
+  gap: 50px;
+  color: #fff;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
-.header{
-    box-shadow: 0 0 15px #fff9;
-    background-color: rgb(0, 0, 0);
-}
-
-.header-links ::selection{
-    background-color: #BC955D;
-}
-.responsive-menu{
-    display: none
+.header {
+  box-shadow: 0 0 15px #fff9;
+  background-color: rgb(0, 0, 0);
 }
 
-@media screen and (max-width:720px) {
-    .responsive-menu{
-        display: flex;
-    }
-    .header-links{
-        display: none;
-    }
+.header-links ::selection {
+  background-color: #bc955d;
+}
+.responsive-menu {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  .responsive-menu {
+    display: flex;
+  }
+  .header-links {
+    display: none;
+  }
+}
+
+*::selection {
+  background-color: #bc955d;
+  color: white;
 }
