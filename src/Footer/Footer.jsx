@@ -3,30 +3,51 @@ import Instagram from "../icons/Instagram";
 import Telegram from "../icons/Telegram";
 
 const Footer = () => {
+  const sendTelegramMessage = (event) => {
+    event.preventDefault();
+    const botToken = "6023593215:AAEYLS32-BRIdeUTF7UgwRKDZOoRLPMWYxM";
+    const chatId = "5993533674";
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
+
+    const text = `--------------%0AName: ${name}%0AEmail: ${email}%0ANumber: ${message}%0A`;
+    const url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${text}`;
+
+    fetch(url)
+      .then((response) => {
+        console.log("Xabar yuborildi!");
+        document.querySelector("form").reset();
+      })
+      .catch((error) => {
+        alert("Xatolik yuz berdi:");
+      });
+  };
+
   return (
     <div>
       <footer className="footer">
         <div className="container">
           <div className="all-footer">
             <div className="user-profile">
-              <div className="inputs">
+              <form onSubmit={sendTelegramMessage} className="inputs">
                 <div className="input-bag">
                   <div className="input1">
                     <span>Ваше имя *</span>
-                    <input type="text" />
+                    <input id="name" type="text" />
                   </div>
                   <div className="input2">
                     <span>Ваш e-mail *</span>
-                    <input type="emal" />
+                    <input id="email" type="email" />
                   </div>
                 </div>
                 <div className="input3">
                   <span>Сообщение</span>
-                  <textarea></textarea>
+                  <textarea id="message"></textarea>
                 </div>
 
                 <button>Отправить</button>
-              </div>
+              </form>
             </div>
             <div className="user-locations">
               <div className="locatsion">
