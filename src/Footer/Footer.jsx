@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../Styles/Footer.css";
 import Instagram from "../icons/Instagram";
 import Telegram from "../icons/Telegram";
@@ -64,8 +65,12 @@ const Footer = () => {
               <div className="contacts">
                 <h1>КОНТАКТЫ</h1>
                 <h2>Xorazm viloyati: Urganch Shahar. <br /> Gulobod kòchasi 11 uy. Oboylar dunyosi dòkoni</h2>
-                <h3>+99888 888 88 88</h3>
-                <h6>+99888 888 88 88</h6>
+                <Link to={'tel:+998904345377'}>
+                <h3>+998 (90) 434 53 77</h3>
+                </Link>
+                <Link to={'tel:+998937226149'}>
+                <h6>+998 (93) 722 61 49</h6>
+                </Link>
                 <div className="socials">
                   <button>
                    <a href="https://t.me/seniyor_dev_uz">
