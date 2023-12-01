@@ -65,11 +65,11 @@ const Footer = () => {
               <div className="contacts">
                 <h1>КОНТАКТЫ</h1>
                 <h2>Xorazm viloyati: Urganch Shahar. <br /> Gulobod kòchasi 11 uy. Oboylar dunyosi dòkoni</h2>
-                <Link to={'tel:+998904345377'}>
-                <h3>+998 (90) 434 53 77</h3>
+                <Link to={'tel:++998934659999'}>
+                <h3>+998 (93) 465 99 99</h3>
                 </Link>
-                <Link to={'tel:+998937226149'}>
-                <h6>+998 (93) 722 61 49</h6>
+                <Link to={'tel:++998934659999'}>
+                <h6>+998 (93) 465 99 99</h6>
                 </Link>
                 <div className="socials">
                   <button>
