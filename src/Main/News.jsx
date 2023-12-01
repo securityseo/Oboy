@@ -10,8 +10,8 @@ const News = () => {
                    </div>
                    <div className="news-title">
                     <h2>Дилеры</h2>
-                    <h3>Xorazm viloyati: Urganch Shahar. Gulobod kòchasi 11
-uy. Oboylar dunyosi dòkoni. Telefon raqam. +99888 888 88 88 </h3>
+                    <h3>Xorazm viloyati: Urganch Shahar. <br /> Gulobod kòchasi 11
+uy. Oboylar dunyosi dòkoni. <br /> Telefon raqam. +99888 888 88 88 </h3>
                    </div>
                 </div>
         </div>

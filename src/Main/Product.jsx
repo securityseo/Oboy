@@ -48,9 +48,11 @@ function ProductSortRender({ brand }) {
     <div>
       <div className="wrapper">
         <div className="katalog">
+          <div className="left-line"></div>
           <img src={LeftLine} alt="" />
           <h2>Каталог</h2>
           <img src={RightLine} alt="" />
+          <div className="left-line"></div>
         </div>
         <div className="container">
           <Tabs variant="enclosed" width={"100%"} colorScheme="white">
@@ -58,6 +60,7 @@ function ProductSortRender({ brand }) {
               display={"flex"}
               alignItems={"center"}
               justifyContent={"space-between"}
+              className="tab-list"
             >
               <Tab width={"100%"} color={"#BC955D"}>
                 Обои из вспененного винила
@@ -89,17 +92,21 @@ function ProductSortRender({ brand }) {
           </Tabs>
         </div>
         <div className="katalog">
+        <div className="left-line"></div>
           <img src={LeftLine} alt="" />
           <h2>Новости</h2>
           <img src={RightLine} alt="" />
+          <div className="left-line"></div>
         </div>
         <div className="container">
           <News />
         </div>
         <div className="katalog">
           <img src={LeftLine} alt="" />
+        <div className="left-line"></div>
           <h2>Обратная связь</h2>
           <img src={RightLine} alt="" />
+          <div className="left-line"></div>
         </div>
       </div>
 
