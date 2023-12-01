@@ -1,9 +1,10 @@
 import React from 'react'
+import News from '../Main/News'
 
 const Nowosti = () => {
   return (
-    <div>
-      Nowosti
+    <div className='bg-day-news'>
+      <News/>
     </div>
   )
 }

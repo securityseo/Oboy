@@ -7,6 +7,13 @@
     background-size: cover;
     background-image: url('../Images/background.jpeg');
 }
+.full-bg-catalog{
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../Images/background.jpeg');
+}
 
 /*Katalog*/
 .katalog img{
@@ -32,8 +39,8 @@ line-height: 43.2px; /* 120% */
 }
 .katalog{
     align-items: center;
-    margin:55px 0;
-    padding: 0 15px;
+
+    padding: 55px 15px;
     display: flex;
     gap: 20px;
 }
