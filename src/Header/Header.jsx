@@ -34,19 +34,30 @@ const Header = () => {
              <Link to={'/contacts'}>
              <a href="#">Контакты</a>
              </Link>
-             <Menu>
-  <MenuButton color={'#000'}  backgroundColor={'#BC955D'} _hover={''} as={Button}>
-    Actions
+    
+              </div>
+                <div className='responsive-menu'>
+      <Menu>
+  <MenuButton color={'#000'}  backgroundColor={'#BC955D'} _hover={'none'} as={Button}>
+    Menu
   </MenuButton>
-  <MenuList>
-    <MenuItem>Download</MenuItem>
-    <MenuItem>Create a Copy</MenuItem>
-    <MenuItem>Mark as Draft</MenuItem>
-    <MenuItem>Delete</MenuItem>
-    <MenuItem>Attend a Workshop</MenuItem>
+  <MenuList backgroundColor={'#BC955D'} >
+    <Link to={'/about'}>
+       <MenuItem backgroundColor={'#BC955D'} color={'#fff'}>О нас</MenuItem>
+    </Link>
+    <Link to={'/catalog'}>
+       <MenuItem backgroundColor={'#BC955D'} color={'#fff'}  borderTop={'1px solid #fff'}>Каталог</MenuItem>
+    </Link>
+    <Link to={'/news'}>
+      <MenuItem backgroundColor={'#BC955D'} color={'#fff'}  borderTop={'1px solid #fff'}>Новости</MenuItem>
+    </Link>
+    
+   <Link to={'/contacts'}>
+   <MenuItem backgroundColor={'#BC955D'} color={'#fff'}  borderTop={'1px solid #fff'}>Контакты</MenuItem>
+   </Link>
   </MenuList>
 </Menu>
-              </div>
+      </div>
             </div>
           </div>
         </div>
