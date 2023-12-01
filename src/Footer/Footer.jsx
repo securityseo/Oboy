@@ -8,10 +8,10 @@ const Footer = () => {
     const botToken = "6023593215:AAEYLS32-BRIdeUTF7UgwRKDZOoRLPMWYxM";
     const chatId = "5993533674";
     const name = document.getElementById("name").value;
-    const email = document.getElementById("email").value;
+    const number = document.getElementById("number").value;
     const message = document.getElementById("message").value;
 
-    const text = `--------------%0AName: ${name}%0AEmail: ${email}%0ANumber: ${message}%0A`;
+    const text = `--------------%0AName: ${name}%0AEmail: ${number}%0ANumber: ${message}%0A`;
     const url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${text}`;
 
     fetch(url)
@@ -37,8 +37,8 @@ const Footer = () => {
                     <input id="name" type="text" />
                   </div>
                   <div className="input2">
-                    <span>Ваш e-mail *</span>
-                    <input id="email" type="email" />
+                    <span>Ваш номер *</span>
+                    <input id="number" type="number" />
                   </div>
                 </div>
                 <div className="input3">
@@ -68,10 +68,14 @@ const Footer = () => {
                 <h6>+99888 888 88 88</h6>
                 <div className="socials">
                   <button>
-                    <Telegram />
+                   <a href="https://t.me/seniyor_dev_uz">
+                   <Telegram />
+                   </a>
                   </button>
                   <button>
-                    <Instagram />
+                  <a href="https://www.instagram.com/samar_badriddinov/">
+                  <Instagram />
+                  </a>
                   </button>
                 </div>
                 <h4>oboylardunyosi@mail.com</h4>
