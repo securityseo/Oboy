@@ -73,12 +73,12 @@ const Footer = () => {
                 </Link>
                 <div className="socials">
                   <button>
-                   <a href="https://t.me/seniyor_dev_uz">
+                   <a href="https://t.me/+998934659999">
                    <Telegram />
                    </a>
                   </button>
                   <button>
-                  <a href="https://www.instagram.com/samar_badriddinov/">
+                  <a href="https://www.instagram.com/shohmardon.701/">
                   <Instagram />
                   </a>
                   </button>
