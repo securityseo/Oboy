@@ -11,7 +11,7 @@ const Footer = () => {
     const number = document.getElementById("number").value;
     const message = document.getElementById("message").value;
 
-    const text = `--------------%0AName: ${name}%0AEmail: ${number}%0ANumber: ${message}%0A`;
+    const text = `--------------%0AName: ${name}%0ANumber: ${number}%0AMessage: ${message}%0A`;
     const url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${text}`;
 
     fetch(url)
