@@ -8,7 +8,8 @@ import { BrowserRouter } from 'react-router-dom'
 ReactDOM.createRoot(document.getElementById('root')).render(
      <BrowserRouter>
      <ChakraProvider>
-    <App />
+          <h1>qotaq</h1>
+    {/* <App /> */}
     </ChakraProvider>
      </BrowserRouter>
 )
