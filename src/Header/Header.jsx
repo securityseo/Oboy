@@ -16,16 +16,16 @@ const Header = () => {
               </div>
               <div className="header-links">
                 <Link to={"/about"}>
-                  <a href="#">О нас</a>
+                  <a className="header-link" href="#">О нас</a>
                 </Link>
                 <Link to={"/catalog"}>
-                  <a href="#">Каталог</a>
+                  <a className="header-link" href="#">Каталог</a>
                 </Link>
                 <Link to={"/news"}>
-                  <a href="#">Новости</a>
+                  <a className="header-link" href="#">Новости</a>
                 </Link>
                 <Link to={"/contacts"}>
-                  <a href="#">Контакты</a>
+                  <a className="header-link" href="#">Контакты</a>
                 </Link>
               </div>
               <div className="responsive-menu">

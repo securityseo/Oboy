@@ -17,6 +17,21 @@
   font-size: 16px;
   font-weight: 400;
 }
+.header-link:hover {
+  color: #f2be4e;
+}
+.header-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #f2be4e;
+  transition: width 0.3s;
+}
+
+.header-link:hover::after {
+  width: 100%;
+}
 .header {
   box-shadow: 0 0 15px #fff9;
   background-color: rgb(0, 0, 0);
