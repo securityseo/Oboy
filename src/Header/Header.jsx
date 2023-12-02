@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import Logo from "../Images/logo.png";
 import "../Styles/Header.css";
 import { Menu, MenuButton, MenuList, MenuItem, Button } from "@chakra-ui/react";
-import { ChevronDownIcon } from "@chakra-ui/icons";
 const Header = () => {
   return (
     <div>
