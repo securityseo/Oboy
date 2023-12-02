@@ -10,37 +10,40 @@ import Kontaqti from "./Pages/Kontaqti";
 import Error from "./Pages/404/Error";
 import { useEffect, useState } from "react";
 
-import './Styles/Loading.css';
+import './Styles/Loading.css'
 
-const Loading = () => {
-  return (
+const Loading = () =>{
+  return(
     <div className="loaderWrapper">
-      <div className="loader">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <p>Loading...</p>
-      </div>
+  <div class="loader">
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+  <p>Loading...</p>
+</div>
     </div>
-  );
-};
+  )
+}
 
 const App = () => {
-  const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    window.onload = () => {
+  const [isLoading , setIsLoading] = useState(true);
+
+  useEffect(() =>{
+    setTimeout(()=>{
       setIsLoading(false);
-    };
-  }, []);
+    },3000);
+  },[])
 
   return (
     <div>
-      {isLoading ? (
-        <Loading />
-      ) : (
+        {isLoading ?(
+          <Loading/>
+          
+
+        ) :(
         <>
           <Header />
           <Routes>
@@ -49,11 +52,12 @@ const App = () => {
             <Route path="/catalog" element={<Katalog />} />
             <Route path="/news" element={<Nowosti />} />
             <Route path="/contacts" element={<Kontaqti />} />
-            <Route path="*" element={<Error />} />
+            <Route path="*" element={<Error/>} />
           </Routes>
           <Footer />
         </>
-      )}
+        )
+        }
     </div>
   );
 };
