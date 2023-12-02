@@ -198,15 +198,36 @@ const data = [
     },
     {
         id:29,
-        img:'https://suzane-oboi.uz/wp-content/uploads/2023/07/1012-03-350x190.jpg',
-        title:'Арт. «Кирпич» 1012',
-        brand:'tisney'
-
+        img:'https://suzane-oboi.uz/wp-content/uploads/2019/04/W012_25-350x190.jpg',
+        title:'W012_25',
+        brand:'poqraska'
     },
     {
         id:30,
-        img:'https://suzane-oboi.uz/wp-content/uploads/2019/04/W012_25-350x190.jpg',
-        title:'W012_25',
+        img:'https://suzane-oboi.uz/wp-content/uploads/2023/07/1013-01-350x190.jpg',
+        title:'Арт. «Линии» 1013',
+        brand:'vinil'
+
+
+    },
+    {
+        id:31,
+        img:'https://suzane-oboi.uz/wp-content/uploads/2023/05/1008-02-350x190.jpg',
+        title:'Арт. «Сьюзен» 1005',
+        brand:'vinil'
+
+
+    },
+    {
+        id:32,
+        img:'https://suzane-oboi.uz/wp-content/uploads/2019/04/W003_25-350x190.jpg',
+        title:'W003_25',
+        brand:'poqraska'
+    },
+    {
+        id:33,
+        img:'https://suzane-oboi.uz/wp-content/uploads/2019/04/W001_25-350x190.jpg',
+        title:'W001_25',
         brand:'poqraska'
     },
 ]
