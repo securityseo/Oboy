@@ -94,7 +94,7 @@ function ProductSortRender({ brand }) {
         <div className="katalog">
         <div className="left-line"></div>
           <img src={LeftLine} alt="" />
-          <h2>Новости</h2>
+          <h2>Местоположения</h2>
           <img src={RightLine} alt="" />
           <div className="left-line"></div>
         </div>

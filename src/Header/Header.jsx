@@ -15,20 +15,25 @@ const Header = () => {
                 </Link>
               </div>
               <div className="header-links">
-              <Link to={"/"}>
-                  <a className="header-link" href="#">Главная</a>
+                <Link to={"/"}>
+                  <a className="header-link" href="#">
+                    Главная
+                  </a>
                 </Link>
                 <Link to={"/about"}>
-                  <a className="header-link" href="#">О нас</a>
+                  <a className="header-link" href="#">
+                    О нас
+                  </a>
                 </Link>
                 <Link to={"/catalog"}>
-                  <a className="header-link" href="#">Каталог</a>
-                </Link>
-                <Link to={"/news"}>
-                  <a className="header-link" href="#">Новости</a>
+                  <a className="header-link" href="#">
+                    Каталог
+                  </a>
                 </Link>
                 <Link to={"/contacts"}>
-                  <a className="header-link" href="#">Контакты</a>
+                  <a className="header-link" href="#">
+                    Контакты
+                  </a>
                 </Link>
               </div>
               <div className="responsive-menu">
@@ -37,7 +42,7 @@ const Header = () => {
                     color={"#000"}
                     backgroundColor={"#BC955D"}
                     _hover={"none"}
-                    _active={'none'}
+                    _active={"none"}
                     as={Button}
                   >
                     <svg
@@ -55,13 +60,17 @@ const Header = () => {
                     </svg>
                   </MenuButton>
                   <MenuList backgroundColor={"#BC955D"} border={"none"}>
-                  <Link to={"/about"}>
+                    <Link to={"/about"}>
                       <MenuItem backgroundColor={"#BC955D"} color={"#fff"}>
-                      Главная
+                        Главная
                       </MenuItem>
                     </Link>
                     <Link to={"/about"}>
-                      <MenuItem backgroundColor={"#BC955D"}  borderTop={"1px solid #fff"} color={"#fff"}>
+                      <MenuItem
+                        backgroundColor={"#BC955D"}
+                        borderTop={"1px solid #fff"}
+                        color={"#fff"}
+                      >
                         О нас
                       </MenuItem>
                     </Link>
@@ -72,15 +81,6 @@ const Header = () => {
                         borderTop={"1px solid #fff"}
                       >
                         Каталог
-                      </MenuItem>
-                    </Link>
-                    <Link to={"/news"}>
-                      <MenuItem
-                        backgroundColor={"#BC955D"}
-                        color={"#fff"}
-                        borderTop={"1px solid #fff"}
-                      >
-                        Новости
                       </MenuItem>
                     </Link>
 

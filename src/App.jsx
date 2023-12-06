@@ -5,7 +5,6 @@ import Main from "./Main/Main";
 import './Styles/Normalize.css';
 import Onas from "./Pages/Onas";
 import Katalog from "./Pages/Katalog";
-import Nowosti from "./Pages/Nowosti";
 import Kontaqti from "./Pages/Kontaqti";
 import Error from "./Pages/404/Error";
 import { useEffect, useState } from "react";
@@ -21,7 +20,7 @@ const Loading = () =>{
 	<div></div>
 	<div></div>
 	<div></div>
-  <p>Loading...</p>
+  <p>hali ko'p kutasan...</p>
 </div>
     </div>
   )
@@ -34,7 +33,7 @@ const App = () => {
   useEffect(() =>{
     setTimeout(()=>{
       setIsLoading(false);
-    },3000);
+    },3);
   },[])
 
   return (
@@ -50,7 +49,6 @@ const App = () => {
             <Route path="/" element={<Main />} />
             <Route path="/about" element={<Onas />} />
             <Route path="/catalog" element={<Katalog />} />
-            <Route path="/news" element={<Nowosti />} />
             <Route path="/contacts" element={<Kontaqti />} />
             <Route path="*" element={<Error/>} />
           </Routes>

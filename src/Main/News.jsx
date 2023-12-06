@@ -10,9 +10,9 @@ const News = () => {
             <img src={Logo} alt="" />
           </div>
           <div className="news-title">
-            <h2>Дилеры</h2>
+            <h2>Мы Здесь :</h2>
             <h3>
-              Xorazm viloyati: Urganch Shahar. <br /> Gulobod kòchasi 11 uy.
+              Xorazm viloyati: Urganch Shahar. <br /> Al-Xorazmiy 45 a Uy.
               Oboylar dunyosi dòkoni. <br /> Telefon raqam. <Link to={'tel:+998904345377'}>+998 (90) 434 53 77</Link>
             </h3>
           </div>

@@ -6,8 +6,8 @@ import Telegram from "../icons/Telegram";
 const Footer = () => {
   const sendTelegramMessage = (event) => {
     event.preventDefault();
-    const botToken = "6023593215:AAEYLS32-BRIdeUTF7UgwRKDZOoRLPMWYxM";
-    const chatId = "5993533674";
+    const botToken = "6249298590:AAGgAfpVZq5L2UABhPxR-ciGuifr9CxR26Y";
+    const chatId = "5845933613";
     const name = document.getElementById("name").value;
     const number = document.getElementById("number").value;
     const message = document.getElementById("message").value;
@@ -53,7 +53,7 @@ const Footer = () => {
             <div className="user-locations">
               <div className="locatsion">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d260.24462764743686!2d60.61607072409697!3d41.559865019857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41dfc98b88844ffb%3A0x55aa9cb6d9d1b566!2sOboylar%20dunyosi!5e0!3m2!1sru!2s!4v1700314905582!5m2!1sru!2s"
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1316.6101689377947!2d60.630323689143566!3d41.57002023733936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDM0JzEyLjEiTiA2MMKwMzcnNDguNSJF!5e1!3m2!1sru!2s!4v1701859723452!5m2!1sru!2s"
                   width="100%"
                   height="330"
                   allowfullscreen
@@ -61,10 +61,9 @@ const Footer = () => {
                   referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
               </div>
-
               <div className="contacts">
                 <h1>КОНТАКТЫ</h1>
-                <h2>Xorazm viloyati: Urganch Shahar. <br /> Gulobod kòchasi 11 uy. Oboylar dunyosi dòkoni</h2>
+                <h2>Xorazm viloyati: Urganch Shahar. <br /> Al-Xorazmiy 45 a Uy. Oboylar dunyosi dòkoni</h2>
                 <Link to={'tel:++998934659999'}>
                 <h3>+998 (93) 465 99 99</h3>
                 </Link>

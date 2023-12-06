@@ -57,3 +57,7 @@
   background-color: #bc955d;
   color: rgb(0, 0, 0);
 }
+
+body::-webkit-scrollbar{
+  display: none;
+}
