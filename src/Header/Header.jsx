@@ -15,6 +15,9 @@ const Header = () => {
                 </Link>
               </div>
               <div className="header-links">
+              <Link to={"/"}>
+                  <a className="header-link" href="#">Главная</a>
+                </Link>
                 <Link to={"/about"}>
                   <a className="header-link" href="#">О нас</a>
                 </Link>
@@ -34,13 +37,14 @@ const Header = () => {
                     color={"#000"}
                     backgroundColor={"#BC955D"}
                     _hover={"none"}
+                    _active={'none'}
                     as={Button}
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="26"
                       height="26"
-                      fill="currentColor"
+                      fill="#fff"
                       class="bi bi-text-right"
                       viewBox="0 0 16 16"
                     >
@@ -50,9 +54,14 @@ const Header = () => {
                       />
                     </svg>
                   </MenuButton>
-                  <MenuList backgroundColor={"#BC955D"}>
-                    <Link to={"/about"}>
+                  <MenuList backgroundColor={"#BC955D"} border={"none"}>
+                  <Link to={"/about"}>
                       <MenuItem backgroundColor={"#BC955D"} color={"#fff"}>
+                      Главная
+                      </MenuItem>
+                    </Link>
+                    <Link to={"/about"}>
+                      <MenuItem backgroundColor={"#BC955D"}  borderTop={"1px solid #fff"} color={"#fff"}>
                         О нас
                       </MenuItem>
                     </Link>
