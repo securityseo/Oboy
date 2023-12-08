@@ -60,7 +60,7 @@ const Header = () => {
                     </svg>
                   </MenuButton>
                   <MenuList backgroundColor={"#BC955D"} border={"none"}>
-                    <Link to={"/about"}>
+                    <Link to={"/"}>
                       <MenuItem backgroundColor={"#BC955D"} color={"#fff"}>
                         Главная
                       </MenuItem>
