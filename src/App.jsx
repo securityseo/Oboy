@@ -4,6 +4,7 @@ import Header from "./Header/Header";
 import Main from "./Main/Main";
 import "./Styles/Normalize.css";
 import Onas from "./Pages/Onas";
+import data from "./db/db";
 import Katalog from "./Pages/Katalog";
 import Kontaqti from "./Pages/Kontaqti";
 import Error from "./Pages/404/Error";
@@ -29,16 +30,16 @@ const Loading = () => {
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 1000);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, 1000);
+  // }, []);
 
   return (
     <div>
-      {isLoading ? (
-        <Loading />
+      {!data.length ? (
+          <Loading />
       ) : (
         <>
           <Header />
